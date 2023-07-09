@@ -1,0 +1,61 @@
+body{
+    background-color: #F2BEFC;
+    background-size: cover;
+}
+
+.mainContainer{
+    background-color: #CA9CE1;
+    display: flex;
+    flex-direction: column;
+    height: 25em;
+    width: 50em;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10em;
+    border-radius: 50px;
+    
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+    width: 25em;
+    
+}
+
+#counter{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 70px;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #642CA9;
+}
+
+#number{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    margin: 0;
+    font-size: 100px;
+    color: #642CA9;
+}
+   
+.button{
+    font-family: 'Amatic SC', cursive;
+    color: #642CA9;
+    background-color: #F3E0EC;
+    border: none;
+    padding: 10px 15px;
+    font-size: 40px;
+    border-radius: 5px;
+    transition: transform .4s;
+    cursor: pointer;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
+
+
